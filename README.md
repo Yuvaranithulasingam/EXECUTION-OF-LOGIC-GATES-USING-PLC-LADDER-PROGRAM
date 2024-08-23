@@ -16,15 +16,19 @@ Power Supply - Appropriate power supply for PLC and peripherals.</br>
 Logic gates are the fundamental building blocks of digital circuits, and they process binary inputs to produce a binary output. In PLC programming, these logic gates can be implemented using ladder logic, which is a graphical programming language resembling electrical relay logic.</br>
 
 ## Basic Logic Gates:
+
 #### AND Gate:</br>
+
 Function: Outputs HIGH only when all inputs are HIGH.</br>
 Ladder Logic: Represented by two or more normally open contacts in series.</br>
 
 #### OR Gate:</br>
+
 Function: Outputs HIGH when at least one input is HIGH.</br>
 Ladder Logic: Represented by two or more normally open contacts in parallel.</br>
 
 ### NOT Gate:</br>
+
 Function: Outputs the inverse of the input signal.</br>
 Ladder Logic: Represented by a normally closed contact.</br>
 
@@ -33,35 +37,44 @@ Function: Outputs LOW only when all inputs are HIGH.</br>
 Ladder Logic: An AND gate followed by a NOT gate.</br>
 
 ### NOR Gate:</br>
+
 Function: Outputs LOW when at least one input is HIGH.</br>
 Ladder Logic: An OR gate followed by a NOT gate.</br>
 
 #### XOR Gate:</br>
+
 Function: Outputs HIGH when an odd number of inputs are HIGH.</br>
 Ladder Logic: Represented by a combination of AND, OR, and NOT gates.</br>
 
 ## Truth Tables:
 
  ### AND GATE:
+ 
  ![image](https://github.com/user-attachments/assets/cc245f61-9429-4a22-ade2-5e4855c75138)
 
  ### OR GATE:
+ 
  ![image](https://github.com/user-attachments/assets/f0fd4784-ae28-4161-ab73-d1097ffc4be6)
 
 ### NOT GATE:
+
 ![image](https://github.com/user-attachments/assets/8b29c5e5-2507-49fa-be88-c92e4f43779d)
 
 ### NAND GATE:
+
 ![image](https://github.com/user-attachments/assets/037f1140-ef47-4f02-97f9-e1b560122009)
 
 ### NOR GATE:
 ![image](https://github.com/user-attachments/assets/b7287452-bd63-42cf-8c1d-bda5479be303)
 
 ### EX-OR GATE:
+
 ![image](https://github.com/user-attachments/assets/520d92d4-cd35-4870-87b4-4a60bd552a28)
 
 ## Procedure:
+
 ### Setup the PLC Programming Environment:
+
 Connect the PLC to the computer system and launch the PLC programming software.</br>
 Ensure all input and output devices are correctly connected to the PLC’s I/O modules.</br>
 Create Ladder Logic Programs:</br>
@@ -73,6 +86,7 @@ Simulate the ladder logic programs in the PLC software.</br>
 Toggle the input states and observe the output corresponding to each gate’s truth table.</br>
 
 ## Download and Execute:
+
 If available, download the ladder logic program to the PLC and run it.</br>
 Verify the outputs by changing the input states using the connected switches and observing the LEDs or output indicators.</br>
 Output of Simulation:</br>
@@ -90,21 +104,27 @@ XOR Gate: The output should light up when exactly one input is HIGH.</br>
 ## SIMULATION RESULTS:
 
 ### AND GATE:
+
 ![and gate](https://github.com/user-attachments/assets/b9554b06-a7eb-4948-99c5-4ba076008c1d)
 
 ### OR GATE:
+
 ![image](https://github.com/user-attachments/assets/baaf1dae-6bc8-46be-b49e-05b1f1093021)
 
 ### NOT GATE:
+
 ![image](https://github.com/user-attachments/assets/4a1ce93d-cc6b-45c6-a550-10b07fe1d7f8)
 
 ### NAND GATE:
+
 ![Screenshot 2024-08-23 084728](https://github.com/user-attachments/assets/e0717d43-bee3-4211-8372-11cbd742476a)
 
 ### NOR GATE:
+
 ![image](https://github.com/user-attachments/assets/9022c8fc-0a86-447f-9669-42ba8a48d9ba)
 
 ### EX-OR GATE:
+
 ![image](https://github.com/user-attachments/assets/235aad23-25d5-4362-9f30-4d70d8a1077f)
 
 ## Results:
